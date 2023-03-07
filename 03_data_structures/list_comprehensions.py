@@ -29,3 +29,15 @@ print(combs)
 # or 1 liner for loop for logic above
 combs = [(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]
 print(combs)
+
+
+# Another examples:
+# apply a function to all the elements
+values = [-4, -2, 0, 2, 4]
+absolute_values = [abs(x) for x in values]
+print(absolute_values)
+
+# apply a method to all the elements
+fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
+capitalize_fruits = [x.capitalize() for x in fruits]
+print(capitalize_fruits)
