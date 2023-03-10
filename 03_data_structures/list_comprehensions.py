@@ -32,12 +32,12 @@ print(combs)
 
 
 # Another examples:
-# apply a function to all the elements
+# apply a function to all the elements, example is abs() function
 values = [-4, -2, 0, 2, 4]
 absolute_values = [abs(x) for x in values]
 print(absolute_values)
 
-# apply a method to all the elements
+# apply a method to all the elements, example is capitalize() method
 fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
 capitalize_fruits = [x.capitalize() for x in fruits]
 print(capitalize_fruits)

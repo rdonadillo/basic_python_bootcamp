@@ -23,7 +23,7 @@ def foo1(name, *args, **kwargs):
 
 foo1('Jayson', 'Committee', 'Team', key1='Education', key2='Membership', key3='Media')
 
-# Derive foo using *args and **kwargs
+# Derive above function using *args and **kwargs
 def foo2(name, *args, **kwargs):
     print(f"Name: {name}")
 

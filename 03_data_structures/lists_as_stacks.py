@@ -1,5 +1,6 @@
 # Lists as Stacks
-# To add an item to the top of the stack, use append()
+
+# Create a list and add an item to the top of the stack, use append()
 stack = [3, 4, 5]
 stack.append(6)
 stack.append(7)

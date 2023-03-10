@@ -6,6 +6,7 @@ print(tups)
 print(tups[0])
 
 # Tuples may be nested
+# Create 2 tuples to be nested
 new_tups = tups, (4, 5, 6)
 print(new_tups)
 

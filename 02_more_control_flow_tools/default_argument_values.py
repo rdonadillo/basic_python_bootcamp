@@ -1,6 +1,6 @@
 # Default Argument Values
 
-# Create defining function
+# Create a function with 1 mandatory and 1 optional or default argument
 def question(name, message='Do you love'):
     answer = input(f"{message} {name}?[Y/N]")
 
