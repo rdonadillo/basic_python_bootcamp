@@ -1,5 +1,6 @@
 # If Statements
 
+# Create an if statement given an integer and print if that is a Negative, Zero, Single or More
 x = int(input("Please enter an integer: "))
 
 if x < 0:

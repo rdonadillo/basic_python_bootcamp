@@ -1,17 +1,18 @@
 # Dictionaries
 
+# Create simple dictionary
 fruits = {'orange': 'orange', 'apple': 'red', 'pear': 'yellow', 'banana': 'yellow', 'kiwi': 'brown'}
 print(fruits)
 
-# Add new pair
+# Add new pair to dictionary
 fruits['watermelon'] = 'green'
 print(fruits)
 
-# Using dict() with a given list of tuple
+# Convert list of tuples to dictionary using dict()
 fruits = [('orange', 'orange'), ('apple', 'red'), ('pear', 'yellow'), ('banana', 'yellow'), ('kiwi', 'brown')]
 print(dict(fruits))
 
-# specify pairs using keyword arguments
+# Using dict() to specify pairs using keyword arguments
 fruits = dict(orange='orange', apple='red', pear='yellow', banana=1)
 print(fruits)
 
